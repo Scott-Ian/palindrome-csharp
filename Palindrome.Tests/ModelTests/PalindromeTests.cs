@@ -14,12 +14,18 @@ namespace Palindrome.Tests
       } 
 
     [TestMethod]
-
     public void IsPalindrome_ChecksIfStringIsPalindrome_False()
       {
         PalindromeChecker testPalindromeChecker = new PalindromeChecker("Grapefruit");
         Assert.AreEqual(false, testPalindromeChecker.IsPalindrome());
-      }   
+      } 
+
+    [TestMethod]
+    public void IsPalindrome_ChecksIfStringIsPalidrome_True()
+      {
+        PalindromeChecker testPalindromeChecker = new PalindromeChecker("Hannah");
+        Assert.AreEqual(true, testPalindromeChecker.IsPalindrome());
+      }  
     }
   }
 
