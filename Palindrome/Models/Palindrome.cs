@@ -10,7 +10,10 @@ namespace Palindrome
     {
       Input = input;
     }
-
-
+    
+    public string IsPalindrome(string input)
+    {
+      return input;
+    }
   }
 }
