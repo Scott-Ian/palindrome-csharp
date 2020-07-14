@@ -26,6 +26,13 @@ namespace Palindrome.Tests
         PalindromeChecker testPalindromeChecker = new PalindromeChecker("hannah");
         Assert.AreEqual(true, testPalindromeChecker.IsPalindrome());
       }  
+    
+    [TestMethod]
+    public void IsPalindrome_ChecksIfMixedCaseStringIsPalidrome_True()
+      {
+        PalindromeChecker testPalindromeChecker = new PalindromeChecker("HanNah");
+        Assert.AreEqual(true, testPalindromeChecker.IsPalindrome());
+      }    
     }
   }
 
