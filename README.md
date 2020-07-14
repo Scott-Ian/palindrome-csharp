@@ -13,7 +13,7 @@ _Long deiscription._
 | :-------------     | :------------- | :------------- |
 |The program creates a PalindromeChecker Class which is instantiated with a string| Hello | Hello|
 |The program will return false if the input string is not a palindrome | Hello | false|
-|The program will return true if the instantiating string is a palindrome | Hannah | True |
+|The program will return true if the input  string is a palindrome | Hannah | True |
 
 
 ## Setup/Installation Requirements
