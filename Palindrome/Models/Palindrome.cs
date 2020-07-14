@@ -11,9 +11,9 @@ namespace Palindrome
       Input = input;
     }
     
-    public string IsPalindrome(string input)
+    public bool IsPalindrome()
     {
-      return input;
+      return false;
     }
   }
 }
