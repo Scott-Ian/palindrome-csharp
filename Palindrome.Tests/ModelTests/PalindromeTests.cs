@@ -23,7 +23,7 @@ namespace Palindrome.Tests
     [TestMethod]
     public void IsPalindrome_ChecksIfStringIsPalidrome_True()
       {
-        PalindromeChecker testPalindromeChecker = new PalindromeChecker("HannaH");
+        PalindromeChecker testPalindromeChecker = new PalindromeChecker("hannah");
         Assert.AreEqual(true, testPalindromeChecker.IsPalindrome());
       }  
     }

@@ -13,7 +13,15 @@ namespace Palindrome
     
     public bool IsPalindrome()
     {
-      return false;
+
+      for(int i = 0; i < (Input.Length / 2); i++)
+      {
+        if (Input[i] != Input[Input.Length - (1 + i)])
+        {
+          return false;
+        }
+      }
+      return true;
     }
   }
 }
